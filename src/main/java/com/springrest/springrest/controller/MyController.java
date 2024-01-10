@@ -48,8 +48,8 @@ public class MyController {
 	//Delete a Course by CourseId (DELETE Method)
 //	@DeleteMapping("courses/{courseId}")
 //	public String deleteCourse(@PathVariable String courseId) {
-//		boolean ans=this.courseService.deleteCourse(Long.parseLong(courseId));
-//		if(ans) {
+//		boolean some=this.courseService.deleteCourse(Long.parseLong(courseId));
+//		if(some) {
 //			return "Course with Course ID : "+courseId+" has been Deleted successfully";
 //		}
 //		return "Course with Course ID : "+courseId+" does not exist!!";
